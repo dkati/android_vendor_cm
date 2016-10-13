@@ -9,22 +9,22 @@ UI_PATH := vendor/cm/prebuilt/common/media/audio/ui
 
 #UI
 PRODUCT_COPY_FILES += \
-    $(UI_PATH)/Dock.ogg:system/media/audio/ui/Dock.ogg
-    $(UI_PATH)/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg
-    $(UI_PATH)/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg
-    $(UI_PATH)/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg
-    $(UI_PATH)/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg
-    $(UI_PATH)/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg
-    $(UI_PATH)/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg
-    $(UI_PATH)/Lock.ogg:system/media/audio/ui/Lock.ogg
-    $(UI_PATH)/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg
-    $(UI_PATH)/Trusted.ogg:system/media/audio/ui/Trusted.ogg
-    $(UI_PATH)/Undock.ogg:system/media/audio/ui/Undock.ogg
-    $(UI_PATH)/Unlock.ogg:system/media/audio/ui/Unlock.ogg
-    $(UI_PATH)/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg
-    $(UI_PATH)/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg
-    $(UI_PATH)/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg
-    $(UI_PATH)/camera_click.ogg:system/media/audio/ui/camera_click.ogg
+    $(UI_PATH)/Dock.ogg:system/media/audio/ui/Dock.ogg \
+    $(UI_PATH)/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg \
+    $(UI_PATH)/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg \
+    $(UI_PATH)/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg \
+    $(UI_PATH)/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg \
+    $(UI_PATH)/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg \
+    $(UI_PATH)/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg \
+    $(UI_PATH)/Lock.ogg:system/media/audio/ui/Lock.ogg \
+    $(UI_PATH)/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
+    $(UI_PATH)/Trusted.ogg:system/media/audio/ui/Trusted.ogg \
+    $(UI_PATH)/Undock.ogg:system/media/audio/ui/Undock.ogg \
+    $(UI_PATH)/Unlock.ogg:system/media/audio/ui/Unlock.ogg \
+    $(UI_PATH)/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
+    $(UI_PATH)/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg \
+    $(UI_PATH)/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg \
+    $(UI_PATH)/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
     $(UI_PATH)/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg
     
 # Alarms
